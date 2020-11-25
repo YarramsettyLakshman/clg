@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>College Registration Form</title>
+
+</head>
+<body bgcolor="green" text="white">
+<h1 align="Center">College Registration</h1>
+<form action="servlet/Register" method="post">
+<div align="center">
+Sno:<input type=text name="Sno"><br></br>
+Select University:<select name="University">
+<option>JNTU</option>
+<option>OU</option>
+<option>KAKATIYA</option>
+</select>
+<br></br>
+Name:<input type=text name="UName"><br></br>
+College Address:<textarea rows="5 cols="50" name="College Address">
+</textarea><br></br>
+Select Graduation:<select name="Graduation">
+<option>Intermediate</option>
+<option>Graduation</option> 
+</select>
+<br></br>
+Select Courses:<input type="checkbox" name="Courses" id="MPC">MPC
+<input type="checkbox" name="Courses" id="BPC">BPC
+<br></br>
+College Type:
+<input type="radio" name="College Type" value="Public">Public
+<input type="radio" name="College TYpe" value="Private">Private
+<br></br>
+Accept Terms and Conditions:
+<input type="checkbox" name="Accept Terms and Conditions" value="Accept Terms and Conditions">
+<br></br>
+
+<input type="submit" value="Register"/>
+<br></br>
+</form>
+</div>
+</body>
+</html>
